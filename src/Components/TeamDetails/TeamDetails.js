@@ -5,28 +5,33 @@ import facebook from '../../img/Facebook.png';
 import youtube from '../../img/YouTube.png';
 import instagram from '../../img/instagram.png';
 import male from '../../img/male.jpg';
-import female from '../../img/female.png'
+import female from '../../img/female.png';
+import foundation from '../../img/found 1.png';
+import flag from '../../img/flag (1) 1.png';
+import gender from '../../img/male-gender-sign 1.png';
+import sport from '../../img/football (1) 1.png';
+import App from '../../App';
+
 
 
 const TeamDetails = (props) => {
-    const {intFormedYear, strCountry, strTeamBadge, strTeam, strSport, strGender, strDescriptionEN, strStadiumDescription, strInstagram, strTwitter, strFacebook, strYoutube}= props.team;
+    const {intFormedYear, strCountry, strTeam, strSport, strGender, strDescriptionEN, strStadiumDescription, strInstagram, strTwitter, strFacebook, strYoutube}= props.team;
 
-    let playerType = strGender === "Male" ?  <img src={male} alt="" className='img-fluid'/> : <img src={female} alt="" className='img-fluid'/>;
+    let playerType = strGender === "Male" ?  <img src={male} alt="" className='img-fluid w-75'/> : <img src={female} alt="" className='img-fluid'/>;
     
 
     return (
+       
         <div className='container'>
-            {/* <div>
-            <img src={strTeamBadge} alt=""/>
-            </div> */}
-                <div className='team-card p-5'>
-                    <div className='row'>
-                    <div className='col-6 col-md-6 col-sm-12'>
+           
+                <div className='team-card p-4 my-5'>
+                    <div className='row '>
+                    <div className='col-12 col-md-6 col-sm-12'>
                         <h2>{strTeam}</h2>
-                        <p>Founded : <strong>{intFormedYear}</strong></p>
-                        <p>Country : <strong>{strCountry}</strong></p>
-                        <p>Sport Type : <strong>{strSport}</strong></p>
-                        <p>Gender : {strGender}</p>
+                        <p><img src={foundation} alt=""/> Founded : <strong>{intFormedYear}</strong></p>
+                        <p><img src={flag} alt=""/> Country : <strong>{strCountry}</strong></p>
+                        <p> <img src={sport} alt=""/> Sport Type : <strong>{strSport}</strong></p>
+                        <p> <img src={gender} alt=""/> Gender : {strGender}</p>
                     </div>
                     <div className='col-6 col-md-6 col-sm-12'>
                         <p className='team-image'>{playerType}</p>
@@ -43,6 +48,7 @@ const TeamDetails = (props) => {
                 <a href={`https:/${strFacebook}`}> <img src={facebook} alt=""/></a>
                 <a href={`https:/${strYoutube}`}> <img src={youtube} alt=""/></a>
             </div>
+            
         </div>
     );
 };

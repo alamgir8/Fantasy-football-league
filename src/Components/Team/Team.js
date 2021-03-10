@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import TeamDetails from '../TeamDetails/TeamDetails';
+import {  } from "./Team.css";
 
 const Team = () => {
     const {idTeam} = useParams();
@@ -16,7 +17,7 @@ const Team = () => {
         })
     }, [idTeam])
     return (
-        <div>
+        <div className='team-info'>
             {
                 team.map(tm => <TeamDetails team={tm} key={tm.idTeam}></TeamDetails>)
             }
