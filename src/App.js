@@ -8,6 +8,7 @@ import {
 import Home from './Components/Home/Home';
 import NoMatch from './Components/NoMatch/NoMatch';
 import Team from './Components/Team/Team';
+import TeamDetails from './Components/TeamDetails/TeamDetails';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
                   <Route exact path="/">
                     <Home/>
                   </Route>
-                  <Route exact path="/home">
+                  <Route path="/home">
                     <Home/>
                   </Route>
                   <Route path="/team/:idTeam">

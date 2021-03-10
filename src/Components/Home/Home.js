@@ -14,11 +14,12 @@ const Home = () => {
         })
     }, [])
     return (
-        <div>
-            <h3>This is home component</h3>
-            {
-                teams.map(team => <Teams team={team} key={team.idTeam}></Teams>)
-            }
+        <div className='container'>
+           <div className="row">
+                {
+                   teams.map(team => <Teams team={team} key={team.idTeam}></Teams>)
+                }
+           </div>
         </div>
     );
 };
