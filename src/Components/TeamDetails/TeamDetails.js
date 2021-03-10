@@ -10,6 +10,7 @@ import foundation from '../../img/found 1.png';
 import flag from '../../img/flag (1) 1.png';
 import gender from '../../img/male-gender-sign 1.png';
 import sport from '../../img/football (1) 1.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -50,7 +51,7 @@ const TeamDetails = (props) => {
                 <p>{strStadiumDescription}</p>
             </div>
             <div className='social-link text-center py-5'>
-                <a href={`https:/${strInstagram}`} className='mx-3'> <img src={instagram} alt="Instagram" /></a>
+                <Link to={`https:/${strInstagram}`}><a href={`https:/${strInstagram}`} className='mx-3'> <img src={instagram} alt="Instagram" /></a></Link>
                 <a href={`https:/${strTwitter}`} className='mx-3'> <img src={twitter} alt="Twitter" /></a>
                 <a href={`https:/${strFacebook}`} className='mx-3'> <img src={facebook} alt="Facebook" /></a>
                 <a href={`https:/${strYoutube}`} className='mx-3'> <img src={youtube} alt="Youtube" /></a>
