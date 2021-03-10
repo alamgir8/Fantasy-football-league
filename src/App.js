@@ -17,6 +17,11 @@ function App() {
              <Header/>
                 <Switch>
                   <Route exact path="/">
+                  <div className="hero-section">
+                     <div className="container">
+                          <h1 className='text-center text-white'>Fantasy Football</h1>
+                     </div>
+                  </div>
                     <Home/>
                   </Route>
                   <Route path="/home">
