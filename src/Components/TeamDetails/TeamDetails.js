@@ -10,7 +10,7 @@ import foundation from '../../img/found 1.png';
 import flag from '../../img/flag (1) 1.png';
 import gender from '../../img/male-gender-sign 1.png';
 import sport from '../../img/football (1) 1.png';
-import App from '../../App';
+
 
 
 
