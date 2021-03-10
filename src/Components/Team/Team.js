@@ -17,7 +17,6 @@ const Team = () => {
     }, [idTeam])
     return (
         <div>
-            <h3>This is team component</h3>
             {
                 team.map(tm => <TeamDetails team={tm} key={tm.idTeam}></TeamDetails>)
             }

@@ -8,11 +8,22 @@ import {
 import Home from './Components/Home/Home';
 import NoMatch from './Components/NoMatch/NoMatch';
 import Team from './Components/Team/Team';
-import TeamDetails from './Components/TeamDetails/TeamDetails';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
+   
           <Router>
+             <Header/>
+                <div className="hero-section">
+                      <div className="bg-image">
+                      </div>
+                    <div className='container'>
+                        <div className="bg-text">
+                            <h1>Football Fantasy</h1>
+                        </div>
+                  </div>
+                </div>
                 <Switch>
                   <Route exact path="/">
                     <Home/>

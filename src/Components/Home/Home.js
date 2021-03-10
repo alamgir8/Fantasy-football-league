@@ -14,13 +14,12 @@ const Home = () => {
         })
     }, [])
     return (
-        <div className='container'>
-           <div className="row">
-                {
-                   teams.map(team => <Teams team={team} key={team.idTeam}></Teams>)
-                }
-           </div>
+        <div className="main-section bg-dark py-5">
+            <div className="container">
+                <div className="row">{ teams.map(team => <Teams team={team} key={team.idTeam}></Teams>) }</div>
+            </div>
         </div>
+     
     );
 };
 
