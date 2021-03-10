@@ -16,13 +16,9 @@ function App() {
           <Router>
              <Header/>
                 <div className="hero-section">
-                      <div className="bg-image">
-                      </div>
-                    <div className='container'>
-                        <div className="bg-text">
-                            <h1>Football Fantasy</h1>
-                        </div>
-                  </div>
+                     <div className="container">
+                          <h1 className='text-center text-white'>Sports Mania</h1>
+                     </div>
                 </div>
                 <Switch>
                   <Route exact path="/">

@@ -1,25 +1,19 @@
 
-.hero-section .bg-image{
+.hero-section{
+  font-family: 'Roboto', sans-serif;
+}
+.hero-section{
   background-image: url(img/stadium.jpg);
   min-height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+ 
 }
-
-.hero-section .bg-text h1{
-  color: white;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
+.hero-section h1{
+  font-weight: 500;
+  font-size: 50px;
+  padding-top: 260px;
 }
 
 

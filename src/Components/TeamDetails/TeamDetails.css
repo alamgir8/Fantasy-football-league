@@ -6,3 +6,10 @@
 .team-image img{
     border-radius: 5px;
 }
+
+.team-information div{
+    font-size: 20px;
+}
+.team-details p{
+    font-size: 16px;
+}

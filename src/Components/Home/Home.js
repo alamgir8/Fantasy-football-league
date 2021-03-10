@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Teams from '../Teams/Teams';
+import {  } from "./Home.css";
 
 const Home = () => {
     const [teams, setTeams] = useState([]);
@@ -14,7 +15,7 @@ const Home = () => {
         })
     }, [])
     return (
-        <div className="main-section bg-dark py-5">
+        <div className="main-section py-5">
             <div className="container">
                 <div className="row">{ teams.map(team => <Teams team={team} key={team.idTeam}></Teams>) }</div>
             </div>
