@@ -22,7 +22,7 @@ function App() {
                   <Route path="/home">
                   <div className="hero-section">
                      <div className="container">
-                          <h1 className='text-center text-white'>Sports Mania</h1>
+                          <h1 className='text-center text-white'>Fantasy Football</h1>
                      </div>
                   </div>
                     <Home/>

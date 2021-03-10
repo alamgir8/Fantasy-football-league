@@ -6,7 +6,7 @@ const Header = () => {
         <section className="header sticky-top">
         <nav id="navbar" className="navbar text-center navbar-expand-md">
             <div className="container">
-                <Link to="/home" className="nav-link active px-3"><h2>Football League</h2></Link>
+                <Link to="/home" className="nav-link active px-3"><h2>Fantasy Football League</h2></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
