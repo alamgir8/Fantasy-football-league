@@ -37,7 +37,7 @@ const TeamDetails = (props) => {
             <p>{strDescriptionEN}</p>
             <p>{strStadiumDescription}</p>
             <a href={strInstagram}> <img src={instagram} alt=""/></a>
-            <a href={strTwitter} target='_blank'><img src={twitter} alt=""/></a>
+            <a href={strTwitter}><img src={twitter} alt=""/></a>
             <Link to={`/team/${strFacebook}`}><img src={facebook} alt=""/></Link>
             <Link to={`/team/${strYoutube}`}><img src={youtube} alt=""/></Link> 
         </div>
