@@ -17,7 +17,7 @@ const Teams = (props) => {
                     <Card.Text>
                         Sport Type : <strong>{strSport}</strong>
                     </Card.Text>
-                    <Link to={`/team/${idTeam}`}> <button className='btn btn-primary explore-button px-4'>Explore <FontAwesomeIcon icon={faArrowRight} /></button></Link>
+                    <Link to={`/team/${idTeam}`}> <button id='explore-button' className='btn px-4'>Explore <FontAwesomeIcon icon={faArrowRight} /></button></Link>
                 </Card.Body>
                 </Card>
         </div>

@@ -6,3 +6,12 @@
 .team-title{
     font-weight: 900;
 } */
+
+#explore-button{
+    background:#2C35EB;
+    color: #ffffff;
+}
+
+#explore-button:hover{
+    background: #000BFB;
+}

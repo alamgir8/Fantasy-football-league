@@ -49,13 +49,13 @@ const TeamDetails = (props) => {
                 <p className='mb-5'>{strDescriptionEN}</p>
                 <p>{strStadiumDescription}</p>
             </div>
-            <div className='team-link text-center'>
-                <a href={`https:/${strInstagram}`}> <img src={instagram} alt="Instagram" className='m-2'/></a>
-                <a href={`https:/${strTwitter}`}> <img src={twitter} alt="Twitter" className='m-2'/></a>
-                <a href={`https:/${strFacebook}`}> <img src={facebook} alt="Facebook" className='m-2'/></a>
-                <a href={`https:/${strYoutube}`}> <img src={youtube} alt="Youtube" className='m-2'/></a>
+            <div className='social-link text-center py-5'>
+                <a href={`https:/${strInstagram}`} className='mx-3'> <img src={instagram} alt="Instagram" /></a>
+                <a href={`https:/${strTwitter}`} className='mx-3'> <img src={twitter} alt="Twitter" /></a>
+                <a href={`https:/${strFacebook}`} className='mx-3'> <img src={facebook} alt="Facebook" /></a>
+                <a href={`https:/${strYoutube}`} className='mx-3'> <img src={youtube} alt="Youtube" /></a>
             </div>
-                    </div>
+            </div>
             
         </div>
     );
