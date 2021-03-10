@@ -50,8 +50,8 @@ const TeamDetails = (props) => {
                 <p>{strStadiumDescription}</p>
             </div>
             <div className='social-link text-center py-5'>
-                <a href={`http://${strInstagram}`} className='mx-3'> <img src={instagram} alt="Instagram" /></a>
-                <a href={`http://${strTwitter}`} className='mx-3'> <img src={twitter} alt="Twitter" /></a>
+                <a href={`https://${strInstagram}`} className='mx-3'> <img src={instagram} alt="Instagram" /></a>
+                <a href={`https://${strTwitter}`} className='mx-3'> <img src={twitter} alt="Twitter" /></a>
                 <a href={`https://${strFacebook}`} className='mx-3'> <img src={facebook} alt="Facebook" /></a>
                 <a href={`https://${strYoutube}`} className='mx-3'> <img src={youtube} alt="Youtube" /></a>
             </div>
