@@ -13,3 +13,5 @@ feature of this site is:
     10. I added navbar, some design and different name which is required for two bonus marks.
 
     And finally i describe some feature in read this readme file which is also required..
+
+    !!! Please wait sometimes or click home because background image take some time to load (my internet speed is slow as it will be reason  for that but I recommend this issue as I faced)
