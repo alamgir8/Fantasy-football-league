@@ -4,7 +4,7 @@
 }
 .hero-section{
   background-image: url(img/stadium.jpg);
-  min-height: 400px;
+  min-height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@
 .hero-section h1{
   font-weight: 500;
   font-size: 50px;
-  padding-top: 260px;
+  padding-top: 220px;
 }
 
 

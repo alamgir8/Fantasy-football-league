@@ -13,3 +13,7 @@
 .team-details p{
     font-size: 16px;
 }
+#club-badge{
+    height: 150px;
+    min-width: 150px;
+}

@@ -15,16 +15,16 @@ function App() {
    
           <Router>
              <Header/>
-                <div className="hero-section">
-                     <div className="container">
-                          <h1 className='text-center text-white'>Sports Mania</h1>
-                     </div>
-                </div>
                 <Switch>
                   <Route exact path="/">
                     <Home/>
                   </Route>
                   <Route path="/home">
+                  <div className="hero-section">
+                     <div className="container">
+                          <h1 className='text-center text-white'>Sports Mania</h1>
+                     </div>
+                  </div>
                     <Home/>
                   </Route>
                   <Route path="/team/:idTeam">

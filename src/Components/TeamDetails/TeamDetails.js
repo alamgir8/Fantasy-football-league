@@ -15,15 +15,20 @@ import sport from '../../img/football (1) 1.png';
 
 
 const TeamDetails = (props) => {
-    const {intFormedYear, strCountry, strTeam, strSport, strGender, strDescriptionEN, strStadiumDescription, strInstagram, strTwitter, strFacebook, strYoutube}= props.team;
+    const {intFormedYear, strCountry, strTeam, strTeamBadge, strSport, strGender, strDescriptionEN, strStadiumDescription, strInstagram, strTwitter, strFacebook, strYoutube}= props.team;
 
     let playerType = strGender === "Male" ?  <img src={male} alt="" className='img-fluid w-100'/> : <img src={female} alt="" className='img-fluid'/>;
     
 
     return (
-       
-        <div className='container py-5'>        
-                    <div className="team-card">
+        <div className='club-info-section'>
+                     <div className="hero-section">
+                          <div className='text-center pt-5'>
+                                <img id='club-badge' className='img-fluid' src={strTeamBadge} alt="clubBadge" />
+                          </div>
+                     </div>     
+                    <div className="container">
+                    <div className="team-card mt-5">
                         <div className='row p-4 mb-5'>
                             <div className='col-12 col-md-6 col-sm-12'>
                                 <div className='team-information'>
@@ -50,6 +55,7 @@ const TeamDetails = (props) => {
                 <a href={`https:/${strFacebook}`}> <img src={facebook} alt="Facebook" className='m-2'/></a>
                 <a href={`https:/${strYoutube}`}> <img src={youtube} alt="Youtube" className='m-2'/></a>
             </div>
+                    </div>
             
         </div>
     );
