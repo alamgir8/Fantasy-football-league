@@ -10,7 +10,7 @@ feature of this site is:
 
     4. I use only one font awesome in explore button named arrow-froward.
 
-    5. In teamDetails route here all parts is dynamic except header and hero-section background picture, other part name, foundation date, sport type, club-badge, club description, club logo and club social site link, all link work properly.
+    5. In teamDetails route, here all parts is dynamic except header and hero-section background picture, other parts: name, foundation date, sport type, club-badge, club description, club logo and club social site link, All link work properly.
 
     6.In home page I used grid layout from bootstrap not react bootstrap.
 
@@ -19,9 +19,12 @@ feature of this site is:
     8. I used  destructuring after getting value from props.
 
     9. I used conditional formatting or conditional rendering in TeamDetails component.
-    
+
     10. I added navbar, some design and different name which is required for two bonus marks.
 
-    And finally i describe some feature in read this readme file which is also required..
+    And finally i describe some feature in this Readme file which is also required..
 
-    !!! Please wait sometimes or click home because background image take some time to load (my internet speed is slow as it will be reason  for that but I recommend this issue as I faced)
+    !!! Please wait sometimes or click home because background image take some time to load (my internet speed is too slow as it will be reason  for that but I recommend this issue as I faced) 
+    
+
+    ...........................Thanks {&#128578;}...........................
