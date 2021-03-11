@@ -32,7 +32,7 @@ const TeamDetails = (props) => {
                         <div className='row p-4 mb-5'>
                             <div className='col-12 col-md-6 col-sm-12'>
                                 <div className='team-information'>
-                                    <h2 className='mb-5'>{strTeam}</h2>
+                                    <h2 className='mb-5 px-4'>{strTeam}</h2>
                                     <div className='mb-3'><img src={foundation} alt="foundation" className='px-2'/> Founded : {intFormedYear}</div>
                                     <div className='mb-3'><img src={flag} alt="countryFlag" className='px-2' /> Country : {strCountry}</div>
                                     <div className='mb-3'> <img src={sport} alt="football" className='px-2' /> Sport Type : {strSport}</div>
