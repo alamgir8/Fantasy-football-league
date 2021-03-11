@@ -8,3 +8,7 @@
     background: #37003c;
     
 }
+
+.nav-link h5:hover{
+    color: #FB2352;
+}
