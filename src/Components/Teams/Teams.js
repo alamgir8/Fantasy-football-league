@@ -7,7 +7,11 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const Teams = (props) => {
 
-    const {idTeam, strTeamBadge, strTeam, strSport}= props.team;
+    let {idTeam, strTeamBadge, strTeam, strSport}= props.team;
+    if (strSport==="Soccer") {
+        strSport = "Football"
+    }
+
     return (
         <div className='col-lg-3 col-md-4 col-sm-12 my-3'>
             <Card>

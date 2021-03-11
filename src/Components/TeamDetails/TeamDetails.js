@@ -15,9 +15,14 @@ import sport from '../../img/football (1) 1.png';
 
 
 const TeamDetails = (props) => {
-    const {intFormedYear, strCountry, strTeam, strTeamBadge, strSport, strGender, strDescriptionEN, strStadiumDescription, strInstagram, strTwitter, strFacebook, strYoutube}= props.team;
+    let {intFormedYear, strCountry, strTeam, strTeamBadge, strSport, strGender, strDescriptionEN, strStadiumDescription, strInstagram, strTwitter, strFacebook, strYoutube}= props.team;
 
     let playerType = strGender === "Male" ?  <img src={male} alt="" className='img-fluid w-100'/> : <img src={female} alt="" className='img-fluid'/>;
+    // let sportType = strSport ==="Soccer" ? strSport = "Football" : strSport = "Football";
+
+    if (strSport==="Soccer") {
+        strSport = "Football"
+    }
     
 
     return (
