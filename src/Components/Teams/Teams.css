@@ -8,10 +8,11 @@
 } */
 
 #explore-button{
-    background:#2C35EB;
+    background: #FF5166;
     color: #ffffff;
 }
 
 #explore-button:hover{
     background: #000BFB;
 }
+

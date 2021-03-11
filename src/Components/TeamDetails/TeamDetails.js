@@ -33,10 +33,10 @@ const TeamDetails = (props) => {
                             <div className='col-12 col-md-6 col-sm-12'>
                                 <div className='team-information'>
                                     <h2 className='mb-5'>{strTeam}</h2>
-                                    <div className='mb-3'><img src={foundation} alt=""/> Founded : {intFormedYear}</div>
-                                    <div className='mb-3'><img src={flag} alt=""/> Country : {strCountry}</div>
-                                    <div className='mb-3'> <img src={sport} alt=""/> Sport Type : {strSport}</div>
-                                    <div className='mb-3'> <img src={gender} alt=""/> Gender : {strGender}</div>
+                                    <div className='mb-3'><img src={foundation} alt="foundation" className='px-2'/> Founded : {intFormedYear}</div>
+                                    <div className='mb-3'><img src={flag} alt="countryFlag" className='px-2' /> Country : {strCountry}</div>
+                                    <div className='mb-3'> <img src={sport} alt="football" className='px-2' /> Sport Type : {strSport}</div>
+                                    <div className='mb-3'> <img src={gender} alt="gender" className='px-2' /> Gender : {strGender}</div>
                                 </div>
                             </div>
                             <div className='col-12 col-md-6 col-sm-12'>
