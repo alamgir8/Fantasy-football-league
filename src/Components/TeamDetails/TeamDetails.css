@@ -1,7 +1,14 @@
 
 .team-card{
     background-color: #00675E;
-    border-radius: 10px;  
+    border-radius: 10px;
+    
+}
+.card{
+transition:transform 0.4s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-10px);
 }
 .team-image img{
     border-radius: 5px;
